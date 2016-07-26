@@ -1,7 +1,7 @@
 var fs = require('fs');
 var path = require('path');
 var url = require('url');
-
+//就加在了socket一个外部模块
 var PORT = 29231;
 var PONG_DELTA = 10E3;
 var NOT_FOUNT_MSG = '小胡子哥提醒您：404 了！';
